@@ -21,27 +21,28 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${sometypeMono.variable} overflow-hidden antialiased bg-primary text-white`}>
+      <body
+        className={`${sometypeMono.variable} overflow-hidden antialiased bg-primary text-white`}
+      >
         <Gradient />
         <ReactangleTransition />
-        <ScrollHint/>
+        <ScrollHint />
         <PageTransition>
+          <div className="flex h-screen overflow-hidden">
+            {/* Sidebar: Fixed on the left */}
+            <div className="hidden 2xl:flex w-[250px] bg-secondary flex-shrink-0">
+              <MainNav />
+            </div>
 
-        <div className="flex h-screen overflow-hidden">
-          {/* Sidebar: Fixed on the left */}
-          <div className="hidden 2xl:flex w-[250px] bg-secondary flex-shrink-0">
-            <MainNav />
-          </div>
-
-          {/* Main content scrollable */}
-          <div className="flex-1 xl:overflow-y-hidden overflow-y-auto">
-            <div className="max-w-[1130px] px-[15px] py-6 mx-auto">
-              <Header className="mb-2" />
-              <div>{children}</div>
-              <Footer/>
+            {/* Main content scrollable */}
+            <div className="flex-1 xl:overflow-hidden overflow-y-auto">
+              <div className="max-w-[1130px] px-[15px] py-6 mx-auto">
+                <Header />
+                <div className="pt-[72px] xl:p-[4px]">{children}</div>
+                <Footer />
+              </div>
             </div>
           </div>
-        </div>
         </PageTransition>
       </body>
     </html>
