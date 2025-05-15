@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           <div className="flex-1 xl:overflow-hidden overflow-y-auto">
             <div className="max-w-[1130px] px-[15px] py-6 mx-auto">
               <Header className="mb-2" />
-              <div>{children}</div>
+              <div className="pt-[72px] xl:p-[4px]">{children}</div>
               <Footer/>
             </div>
           </div>
