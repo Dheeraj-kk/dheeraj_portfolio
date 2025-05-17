@@ -7,6 +7,7 @@ import Gradient from "./components/Gradient";
 import Header from "./components/Header";
 import ScrollHint from "./components/ScrollHint";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop"; // ✅ Add this
 
 const sometypeMono = Sometype_Mono({
   variable: "--font-sometypeMono",
@@ -28,13 +29,14 @@ export default function RootLayout({ children }) {
         <ReactangleTransition />
         <ScrollHint />
         <PageTransition>
+          <ScrollToTop /> {/* ✅ Ensures scroll to top on page change */}
           <div className="flex h-screen overflow-hidden">
-            {/* Sidebar: Fixed on the left */}
+            {/* Sidebar */}
             <div className="hidden 2xl:flex w-[250px] bg-secondary flex-shrink-0">
               <MainNav />
             </div>
 
-            {/* Main content scrollable */}
+            {/* Main Content */}
             <div className="flex-1 xl:overflow-hidden overflow-y-auto">
               <div className="max-w-[1130px] px-[15px] py-6 mx-auto">
                 <Header />

@@ -9,22 +9,34 @@ import { ImQuotesLeft } from "react-icons/im";
 
 const testimonials = [
   {
-    name: "John Doe",
-    position: "CEO, Company",
+    name: "Gourav",
+    position: "Founder, DFFR",
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Jatin’s dedication and reliability have been crucial for our success. His ability to adapt and solve complex problems inspires the whole team.",
   },
   {
-    name: "Jane Smith",
-    position: "CTO, Company",
+    name: "Ashish",
+    position: "SDE, 24x7.ai",
     testimonial:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Working with Jatin has been a great experience — his technical skills and team spirit make every project smoother and more efficient.",
   },
   {
-    name: "Alice Johnson",
-    position: "Designer, Company",
+    name: "Paul",
+    position: "Team Lead, Ego Paysenger",
     testimonial:
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Jatin is the kind of teammate you want on every project: hardworking, proactive, and always ready to support others with a positive attitude.",
+  },
+  {
+    name: "Saurabh",
+    position: "Founder, Saurabh's Kitchen",
+    testimonial:
+      "Jatin’s work ethic and attention to detail have made a significant impact on our projects. He is a true asset to any team.",
+  },
+  {
+    name: "Ankit",
+    position: "Founder, Ankit's Tech",
+    testimonial:
+      "Jatin is a talented developer who brings innovative ideas to the table. His contributions have greatly enhanced our projects.",
   },
 ];
 
