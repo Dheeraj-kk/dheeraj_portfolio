@@ -4,28 +4,16 @@ import { motion } from "framer-motion";
 
 const journey = [
   {
-    years: "June/2024 - Present",
-    role: "Freelance Web Developer",
-    institution: "Remote",
-  },
-  {
-    years: "Jan/2024 - June/2024",
-    role: "Intern",
-    institution: "CS Infotech (Chandigarh)",
+    years: "Jan/2025 - July/2025",
+    role: "React JS Intern",
+    institution: "Solitaire (Chandigarh)",
   },
   {
     years: "July/2020 - May/2024",
     role: "Student Bachelor",
     institution: "GGSCMT Kharar(Punjab)",
-    marks: "8",
+    marks: "7",
     degree: ".34 SGPA  B.Tech CSE",
-  },
-  {
-    years: "March/2018 - April/2020",
-    role: "Student",
-    institution: "Nangal(Punjab)",
-    marks: "84",
-    degree: "%   PCM",
   },
 ];
 

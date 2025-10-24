@@ -55,7 +55,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ delay: 0.2, ease: 'easeIn', duration: 0.5 }}
+      transition={{ delay: 0.2, ease: "easeIn", duration: 0.5 }}
       className="min-h-screen flex items-center py-24"
     >
       <div className="container mx-auto flex flex-col xl:flex-row gap-12">
@@ -66,18 +66,22 @@ const Contact = () => {
               Let’s <span className="text-accent">Connect</span>
             </h2>
             <p className="text-white/70 max-w-md">
-              Got an idea, question, or project? Fill out the form and I’ll get back to you within 24 hours.
+              Got an idea, question, or project? Fill out the form and I’ll get
+              back to you within 24 hours.
             </p>
           </div>
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-4 text-lg">
               <HiOutlinePhone className="text-accent text-2xl" />
-              <span>+91 79734-07367</span>
+              <span>+91 97962-73902</span>
             </div>
             <div className="flex items-center gap-4 text-lg">
               <HiOutlineMail className="text-accent text-2xl" />
-              <Link href="mailto:coder7jatin@gmail.com" className="hover:underline text-accent">
-                coder7jatin@gmail.com
+              <Link
+                href="mailto:dheerajbasotra24@gmail.com"
+                className="hover:underline text-accent"
+              >
+                dheerajbasotra24@gmail.com
               </Link>
             </div>
             <div className="flex items-center gap-4 text-lg">
@@ -95,26 +99,49 @@ const Contact = () => {
             className="flex flex-col gap-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.5, ease: 'easeIn', duration: 0.5 }}
+            transition={{ delay: 0.5, ease: "easeIn", duration: 0.5 }}
           >
             <div className="flex flex-col xl:flex-row gap-6">
               <div className="w-full">
-                <Label htmlFor="firstname">First Name <span className="text-accent">*</span></Label>
-                <Input id="firstname" name="firstname" placeholder="Your first name" required />
+                <Label htmlFor="firstname">
+                  First Name <span className="text-accent">*</span>
+                </Label>
+                <Input
+                  id="firstname"
+                  name="firstname"
+                  placeholder="Your first name"
+                  required
+                />
               </div>
               <div className="w-full">
-                <Label htmlFor="lastname">Last Name <span className="text-accent">*</span></Label>
-                <Input id="lastname" name="lastname" placeholder="Your last name" required />
+                <Label htmlFor="lastname">
+                  Last Name <span className="text-accent">*</span>
+                </Label>
+                <Input
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Your last name"
+                  required
+                />
               </div>
             </div>
 
             <div className="w-full">
-              <Label htmlFor="email">Email <span className="text-accent">*</span></Label>
-              <Input id="email" name="email" placeholder="you@example.com" required />
+              <Label htmlFor="email">
+                Email <span className="text-accent">*</span>
+              </Label>
+              <Input
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
             </div>
 
             <div className="w-full">
-              <Label htmlFor="service">I'm interested in <span className="text-accent">*</span></Label>
+              <Label htmlFor="service">
+                I'm interested in <span className="text-accent">*</span>
+              </Label>
               <Select
                 name="service"
                 value={selectedService}
@@ -136,7 +163,9 @@ const Contact = () => {
             </div>
 
             <div className="w-full">
-              <Label htmlFor="msg">Message <span className="text-accent">*</span></Label>
+              <Label htmlFor="msg">
+                Message <span className="text-accent">*</span>
+              </Label>
               <Textarea
                 id="msg"
                 name="msg"
@@ -147,7 +176,11 @@ const Contact = () => {
             </div>
 
             {status.message && (
-              <div className={`text-sm mt-2 ${status.type === 'success' ? 'text-green-500' : 'text-red-500'}`}>
+              <div
+                className={`text-sm mt-2 ${
+                  status.type === "success" ? "text-green-500" : "text-red-500"
+                }`}
+              >
                 {status.message}
               </div>
             )}

@@ -20,7 +20,7 @@ const Header = () => {
           <Logo />
           <Sheet>
             <SheetTrigger className="cursor-pointer text-white text-[30px] ">
-             <CiMenuFries />
+              <CiMenuFries />
             </SheetTrigger>
             <SheetContent
               className="bg-primary border-0 flex flex-col justify-between items-center pt-16 pb-20"

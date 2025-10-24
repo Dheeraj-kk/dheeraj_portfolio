@@ -24,16 +24,16 @@ const Info = () => {
           <div>
             <p className="text-lg">Email Address</p>
             <p className="text-accent cursor-pointer hover:underline">
-              <a href="mailto:coder7jatin@gmail.com">coder7jatin@gmail.com</a>
+              <a href="mailto:dheerajbasotra24@gmail.com">dheerajbasotra24@gmail.com</a>
             </p>
           </div>
-          <div className="w-[280px] flex items-start gap-4">
+        </div>
+        <div className="w-[280px] flex items-start gap-4">
           <HiOutlinePhone className="text-accent text-2xl mt-1" />
           <div>
             <p className="text-lg">Contact Number</p>
-            <p className="text-accent">+91 84370-99310</p>
+            <p className="text-accent">+91 9796273902</p>
           </div>
-        </div>
         </div>
       </motion.div>
 
@@ -43,7 +43,6 @@ const Info = () => {
         transition={{ duration: 0.6 }}
         className="flex flex-col md:flex-row gap-6"
       >
-        
         <div className="w-[280px] flex items-start gap-4">
           <HiOutlineLocationMarker className="text-accent text-2xl mt-1" />
           <div>

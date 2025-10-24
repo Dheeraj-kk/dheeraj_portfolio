@@ -47,7 +47,7 @@ const About = () => {
             className="hidden xl:flex xl:flex-col w-full h-full pt-14 max-w-[430px] relative"
           >
             <Image
-              src="/assets/avatar.png"
+              src="/assets/avatar2.png"
               priority
               alt="hero"
               width={320}
@@ -58,7 +58,10 @@ const About = () => {
             <div className="absolute top-[80px] -left-[80px] z-10">
               <Bolb containerStyles="w-[420px] h-[420px]" />
             </div>
-            <SocialLinks containerStyles="flex mt-4 gap-4 z-40 w-max transform translate-x-[30px]" iconStyles="w-[48px] h-[48px] text-[22px] text-accent hover:text-accent-hover transition-all flex items-center justify-center rounded-full cursor-pointer" />
+            <SocialLinks
+              containerStyles="flex mt-4 gap-4 z-40 w-max transform translate-x-[30px]"
+              iconStyles="w-[48px] h-[48px] text-[22px] text-accent hover:text-accent-hover transition-all flex items-center justify-center rounded-full cursor-pointer"
+            />
           </motion.div>
 
           {/* Right Side - Scrollable Content */}
@@ -74,8 +77,8 @@ const About = () => {
                 <p>About Me</p>
               </div>
               <h2 className="h2 mb-6">
-                <span className="text-accent text-6xl">J</span>ATIN {" "}
-                <span className="text-accent text-6xl">S</span>HARMA
+                <span className="text-accent text-6xl">D</span>HEERAJ{" "}
+                <span className="text-accent text-6xl">B</span>ASOTRA
               </h2>
               <p className="max-w-[540px] mb-12">
                 I focus on crafting visually stunning and user-friendly web

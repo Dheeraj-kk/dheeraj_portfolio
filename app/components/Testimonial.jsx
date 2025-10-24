@@ -12,31 +12,31 @@ const testimonials = [
     name: "Gourav",
     position: "Founder, DFFR",
     testimonial:
-      "Jatin’s dedication and reliability have been crucial for our success. His ability to adapt and solve complex problems inspires the whole team.",
+      "Dheeraj’s dedication and reliability have been crucial for our success. His ability to adapt and solve complex problems inspires the whole team.",
   },
   {
     name: "Ashish",
     position: "SDE, 24x7.ai",
     testimonial:
-      "Working with Jatin has been a great experience — his technical skills and team spirit make every project smoother and more efficient.",
+      "Working with Dheeraj has been a great experience — his technical skills and team spirit make every project smoother and more efficient.",
   },
   {
     name: "Paul",
     position: "Team Lead, Ego Paysenger",
     testimonial:
-      "Jatin is the kind of teammate you want on every project: hardworking, proactive, and always ready to support others with a positive attitude.",
+      "Dheeraj is the kind of teammate you want on every project: hardworking, proactive, and always ready to support others with a positive attitude.",
   },
   {
     name: "Saurabh",
     position: "Founder, Saurabh's Kitchen",
     testimonial:
-      "Jatin’s work ethic and attention to detail have made a significant impact on our projects. He is a true asset to any team.",
+      "Dheeraj’s work ethic and attention to detail have made a significant impact on our projects. He is a true asset to any team.",
   },
   {
     name: "Ankit",
     position: "Founder, Ankit's Tech",
     testimonial:
-      "Jatin is a talented developer who brings innovative ideas to the table. His contributions have greatly enhanced our projects.",
+      "Dheeraj is a talented developer who brings innovative ideas to the table. His contributions have greatly enhanced our projects.",
   },
 ];
 

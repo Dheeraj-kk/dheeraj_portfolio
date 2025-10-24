@@ -47,7 +47,7 @@ const Hero = () => {
             variants={fadeUp}
             custom={0.2}
           >
-            Hi, I’m Jatin <br />
+            Hi, I’m Dheeraj <br />
             <TypeAnimation
               sequence={[
                 "Web Developer",
@@ -76,7 +76,7 @@ const Hero = () => {
           </motion.p>
 
           <motion.div variants={fadeUp} custom={0.4}>
-            <Link href="/Contact">
+            <Link href="/contact">
               <button className="btn btn-lg btn-accent mb-6">
                 <div className="flex items-center gap-x-2">
                   <span>Let's talk.</span>
@@ -93,15 +93,15 @@ const Hero = () => {
           >
             <div className="flex items-center gap-2 text-lg">
               <HiOutlinePhone className="text-accent text-xl" />
-              <span>+91 79734-07367</span>
+              <span>9796273902</span>
             </div>
             <div className="flex items-center gap-2 text-lg">
               <HiOutlineMail className="text-accent text-xl" />
               <Link
-                href="mailto:coder7jatin@gmail.com"
+                href="mailto:dheerajbasotra24@gmail.com"
                 className="hover:underline"
               >
-                coder7jatin@gmail.com
+                dheerajbasotra24@gmail.com
               </Link>
             </div>
           </motion.div>
@@ -124,7 +124,7 @@ const Hero = () => {
           <div className="relative w-[320px] h-[320px]  xl:w-[560px] xl:h-[560px]">
             <Bolb containerStyles="w-full h-full" />
             <Image
-              src="/assets/avatar1.png"
+              src="/assets/avatar2.png"
               alt="hero"
               width={100}
               height={100}

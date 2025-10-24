@@ -10,7 +10,7 @@ const MainNav = () => {
       <div className="flex flex-col h-full justify-between items-center mx-auto">
         <Logo />
       <NavLinks containerStyles="flex flex-col gap-6" />
-      <Link  href="/CV.pdf" download={true} className="btn btn-lg btn-tertiary mb-8">
+      <Link  href="/CVV.pdf" download={true} className="btn btn-lg btn-tertiary mb-8">
         <div className="flex items-center gap-x-2">
           <span>Download CV</span>
           <MdFileDownload className="text-xl" />

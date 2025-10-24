@@ -6,29 +6,29 @@ import { MdEmail } from 'react-icons/md';
 
 const socialLinks = [
   {
-    name: 'GitHub',
+    name: "GitHub",
     icon: <FaGithub />,
-    url: 'https://github.com/vashistJatin',
+    url: "https://github.com/dheeraj-kk",
   },
   {
-    name: 'LinkedIn',
+    name: "LinkedIn",
     icon: <FaLinkedin />,
-    url: 'https://www.linkedin.com/in/jatin-sharma-8874162b2?',
+    url: "https://www.linkedin.com/in/jatin-sharma-8874162b2?",
   },
   {
-    name: 'Twitter',
+    name: "Twitter",
     icon: <FaTwitter />,
-    url: 'https://x.com/jtinxnet?s=21',
+    url: "https://x.com/dheeraj_basotra?s=21",
   },
   {
-    name: 'Email',
+    name: "Email",
     icon: <MdEmail />,
-    url: 'mailto:your.Jatin8966@gmail.com',
+    url: "mailto:your.dheerajbasotra24@gmail.com",
   },
   {
-    name: 'Medium',
+    name: "Medium",
     icon: <FaMedium />,
-    url: 'http://medium.com/@sharma.jsv07',
+    url: "http://medium.com/@dheerajbasotra24",
   },
 ];
 

@@ -3,7 +3,10 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <Link href="/" className="flex items-center gap-x-2 text-4xl font-bold text-accent">
+    <Link
+      href="/"
+      className="flex items-center gap-x-2 text-4xl font-bold text-accent"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="40"
@@ -19,9 +22,9 @@ const Logo = () => {
         <polyline points="16 18 22 12 16 6" />
         <polyline points="8 6 2 12 8 18" />
       </svg>
-      <span className="text-white">Jatin</span>
+      <span className="text-white">Dheeraj</span>
     </Link>
-  )
+  );
 }
 
 export default Logo
